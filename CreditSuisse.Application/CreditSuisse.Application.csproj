@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CreditSuisse.Domain\CreditSuisse.Domain.csproj" />
+    <ProjectReference Include="..\CreditSuisse.Helpers\CreditSuisse.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
